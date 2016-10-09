@@ -5,6 +5,19 @@
 <cfset tracks = deserializeJSON(tracksResult.filecontent)>
 
 <cfoutput>
+	<div>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- mavelar block adv -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-3959349930061469"
+         data-ad-slot="6939220250"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  
 	<cfloop array="#tracks.items#" index="t">
 		<cfset artists = []>
 		<cfloop array="#t.track.artists#" index="an">

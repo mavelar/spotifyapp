@@ -23,17 +23,8 @@
     <div class="bottom">
       <cfinclude template="playlists.cfm">
     </div>
-  </div>
-  <div>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- mavelar block adv -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-3959349930061469"
-         data-ad-slot="6939220250"
-         data-ad-format="auto"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <div class="text-center">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+    </div>
   </div>
 </cfoutput>
